@@ -9,6 +9,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 body {
@@ -69,10 +70,29 @@ body {
 #description {
     padding: 10px;
     background-color: rgba(212, 211, 211, 0.3);
+    border-radius: 10px;
+}
+
+#description h1 {
+    margin: 10px;
+    padding: 5px;
+}
+
+#description p {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.signup-button {
+    padding: 5px;
+    background-color: rgb(243, 171, 16);
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    border-radius: 25%;
 }
 
 #juices {
-    height: 60vh;
+    height: 50vh;
 }
 
 /* end of 1st section */
@@ -81,4 +101,32 @@ body {
 
 #section-2 {
     height: 100vh;
+    text-align: center;
 }
+
+#img-container {
+    display: flex;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 0 20px 40px 20px;
+    width: 100%;
+}
+
+.image-box {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 50vh;
+    background-color: #f9faf87a;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 100px;
+}
+
+/* end of section 2 */
