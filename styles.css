@@ -1,3 +1,11 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+    scroll-behavior: smooth;
+    scroll-margin: 70px;
+    }
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +28,7 @@ body {
 }
 
 #logo {
-    height: 50px;
+    height: 70px;
     margin-left: 30px;
 }
 
@@ -38,6 +46,7 @@ body {
     color: inherit;
     text-decoration: none;
     padding: 25px;
+    font-size: 20px;
 }
 
 #navbar a:hover {
@@ -51,7 +60,7 @@ body {
 
 #section-1 {
     display: flex;
-    height: calc(100vh - 50px);   /* Set to be 100vh - navbar height */
+    height: 100vh;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
@@ -64,4 +73,12 @@ body {
 
 #juices {
     height: 60vh;
+}
+
+/* end of 1st section */
+
+/* start of 2nd section */
+
+#section-2 {
+    height: 100vh;
 }
