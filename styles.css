@@ -1,7 +1,7 @@
 @media (prefers-reduced-motion: no-preference) {
     * {
     scroll-behavior: smooth;
-    scroll-margin: 70px;
+    scroll-margin: 70px;  /* set scroll margin = navbar height */
     }
 }
 
@@ -17,7 +17,7 @@ body {
     color: #f9faf8;
 }
 
-/*Start navbar setup*/
+/* start navbar setup */
 
 #navbar {
     display: flex;
@@ -169,3 +169,25 @@ body {
     height: 100vh;
 }
 
+#signup {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9faf87a;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#signup .signup-button {
+    margin-left: 10px;
+}
+
+/* end of section 4 */
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #f9faf87a;
+    padding-top: 5px;
+}
