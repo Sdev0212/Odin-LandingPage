@@ -190,6 +190,15 @@ body {
     margin-left: 10px;
 }
 
+.signup-button:hover {
+    cursor: pointer;
+    background-color: rgb(172, 121, 11);
+}
+
+.signup-button:active {
+    transform: translateY(2px);
+}
+
 /* end of section 4 */
 
 
@@ -199,13 +208,6 @@ footer {
     width: 100%;
     background-color: #f9faf87a;
     padding-top: 5px;
+    color: #1f2937;
 }
 
-.signup-button:hover {
-    cursor: pointer;
-    background-color: rgb(172, 121, 11);
-}
-
-.signup-button:active {
-    transform: translateY(2px);
-}
