@@ -130,3 +130,42 @@ body {
 }
 
 /* end of section 2 */
+
+/* start of section 3 */
+
+#section-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#quote {
+    background-color: #f9faf87a;
+    padding: 30px 80px;
+    border-radius: 20px;
+}
+
+#quote i {
+    text-align: left;
+    margin-left: -50px;
+    margin-bottom: 30px;
+}
+
+#quote p {
+    text-align: right;
+    margin-right: -50px;
+    margin-top: 30px;
+}
+
+/* end of section 3 */
+
+/* start of section 4 */
+
+#section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
