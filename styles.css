@@ -118,15 +118,19 @@ body {
     display: flex;
     flex-direction: column;
     width: 20%;
+    min-width: 200px;
     height: 50vh;
     background-color: #f9faf87a;
     margin: 5px;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    border-radius: 20px;
 }
 
 .image {
-    width: 100px;
+    width: 60%;
+    min-width: 100px;
+    border-radius: 10px;
 }
 
 /* end of section 2 */
@@ -190,4 +194,13 @@ footer {
     width: 100%;
     background-color: #f9faf87a;
     padding-top: 5px;
+}
+
+.signup-button:hover {
+    cursor: pointer;
+    background-color: rgb(172, 121, 11);
+}
+
+.signup-button:active {
+    transform: translateY(2px);
 }
