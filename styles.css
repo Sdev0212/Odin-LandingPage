@@ -55,6 +55,10 @@ body {
     background-color: #f9faf8;
 }
 
+#navbar a:active {
+    background-color: #d3d4d1;
+}
+
 /* end of navbar setup */
 
 /* start of 1st section */
